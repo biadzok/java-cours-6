@@ -1,0 +1,14 @@
+C<Object>     C<Double>
+    ^             ^
+    |             |
+D<Object>     D<Object>
+
+D<double, integer> hérite de C<double>
+D<double, double> hérite de C<double>
+D<integer, Double> hérite de rien
+
+D<double> hérite de C<double>
+D<string> est non autorisé
+C<String> hérite de rien
+
+d<double>

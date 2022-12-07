@@ -1,0 +1,17 @@
+class C < T > {
+T x;
+T[] t1;
+T[] t2;
+public static T inf;
+public static int n;
+void f() {
+x = new T();
+t2 = t1;
+t2 = new T[5];
+}
+}
+
+les lignes 3 & 4 sont incorrectes, on ne peut pas faire de tableau de T.
+la ligne 5 est impossible, on a un type générique en static, c'est interdit.
+la ligne 8 : le constructeur de T n'est pas encore défini.
+ligne 10 : ça n'a aucun sens.

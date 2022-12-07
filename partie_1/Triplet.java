@@ -3,7 +3,7 @@ public class Triplet<T> {
   private T second;
   private T troisieme;
 
-  public Triplet();
+  public Triplet() {};
 
   public Triplet(T premier, T second, T troisieme) {
     this.premier = premier;
